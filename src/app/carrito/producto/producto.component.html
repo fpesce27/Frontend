@@ -1,0 +1,25 @@
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="d-flex justify-content-between">
+      <div class="d-flex flex-row align-items-center">
+        <div>
+          <img
+            src={{producto.img}}
+            class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+        </div>
+        <div class="ms-3">
+          <h5>{{ producto.nombre }}</h5>
+        </div>
+      </div>
+      <div class="">
+        <div>
+          <h5 class="fw-normal mb-0"><strong>USD</strong> ${{ producto.precio_en_dolares }}</h5>
+        </div>
+        <div>
+          <h5 class="mb-0"><strong>ARS</strong> ${{producto.precio_en_pesos}}</h5>
+        </div>
+        <a href="#!" style="color: #cecece;" (click)="eliminarProducto()"><i class="fas fa-trash-alt"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

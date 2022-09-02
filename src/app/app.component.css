@@ -1,0 +1,11 @@
+app-footer {
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+}
+
+app-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
